@@ -1,0 +1,83 @@
+#Home{
+    background-image: url(../weather-images/set-elements-weather-forecast-meteorology-report-theme_87771-10078.jpg);
+   min-height: 100vh;
+  
+   background-size: cover;
+}
+.bg-dark{
+    background-color: #548693 !important;
+}
+
+.find-location{
+    position: relative;
+  
+ } 
+ #search{
+    background-color: #548693
+
+ }  
+ #submit{
+    position: absolute;
+ top: 5px;
+ right: 15%;
+ bottom: 5px;
+ padding:  0 40px;
+ border-radius: 30px;
+ background-color: rgb(173, 218, 215);
+ }
+ #search::placeholder{
+    color: black;
+    opacity: 1;
+    
+ }
+.item{
+    background-color: #548693;
+    width: 33%;
+    padding: 30px;
+}
+.item span{
+    font-weight: 600;
+}
+
+
+
+
+
+footer{
+    background-color: #DC9B1B;
+}
+
+#email{
+    background-color: #548693
+
+ }  
+ #subscrip{
+    position: absolute;
+ top: 5px;
+ right: 15%;
+ bottom: 5px;
+ padding:  0 40px;
+ border-radius: 30px;
+ background-color: rgb(173, 218, 215);
+ }
+ #search::placeholder{
+    color: black;
+    opacity: 1;
+    
+ }
+ footer a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    background-color: #ADDAD7;
+    display: flex;
+text-decoration: none;
+    justify-content: center;
+    align-items: center;
+ }
+ footer a:hover{
+    background-color: white;
+    color:#ADDAD7 ;
+ }
